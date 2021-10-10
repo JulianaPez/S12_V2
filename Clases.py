@@ -20,11 +20,11 @@ class administrador(Usuario):
   
 class individuo:
 
-    def __init__(self, id, especie, orden, genero, familia, ubicacion, rol):
-        self.name = name
-        self.password = password
-        self.correo = correo
-        self.profesion = profesion
-        self.telefono = telefono
+    def __init__(self, id, clase, genero, familia, especie, ubicación, imagen):
+        self.id = id
+        self.clase = clase
+        self.genero = genero
+        self.familia = familia
+        self.especie = especie
         self.ubicacion = ubicacion
-        self.rol =rol  
+        self. imagen= imagen  
