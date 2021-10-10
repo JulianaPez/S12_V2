@@ -43,3 +43,4 @@ for row in results:
    ubicacion= row[5]
    imagen= row[6]
    print ("id = {0}, clase= {1}, genero= {2}, familia= {3}, especie= {4}, ubicación= {5}, imagen= {6}".format(id, clase, genero, familia, especie, ubicación, imagen))
+db.close()
